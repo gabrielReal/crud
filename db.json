@@ -1,0 +1,39 @@
+{
+  "guitarHero": [
+    {
+      "id": 2,
+      "name": "Jimi Hendrix",
+      "band": "The Jimi Hendrix Experience"
+    },
+    {
+      "id": 3,
+      "name": "Duane Allman",
+      "band": "The Allman Brothers Band"
+    },
+    {
+      "id": 4,
+      "name": "Mike Bloomfield",
+      "band": "The Electric Flag"
+    },
+    {
+      "id": 5,
+      "name": "George Harrison",
+      "band": "The Beatles"
+    },
+    {
+      "id": 7,
+      "name": "Jimmy Page",
+      "band": "Led Zeppelin"
+    },
+    {
+      "id": 10,
+      "name": "Jorma Kaukonen",
+      "band": "Jefferson Airplane"
+    },
+    {
+      "name": "Eric Clapton",
+      "band": "Cream",
+      "id": 1646227077889
+    }
+  ]
+}

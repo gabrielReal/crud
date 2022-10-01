@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CRUD API REST FETCH</title>
+</head>
+
+<body>
+  <section class="main">
+    <h1>CRUD API REST FETCH</h1>
+
+    <section class="crud-container">
+      <section class="crud">
+        <article>
+          <h2 class="crud-title">Agregar Guitar Hero</h2>
+          <form class="crud-form">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <br>
+            <input type="text" name="band" placeholder="Banda" required>
+            <br>
+            <input type="submit" value="Enviar" id="enviar">
+            <input type="hidden" name="id">
+          </form>
+        </article>   
+      </section>
+
+      <section class="template-container">
+        <article>
+          <h2>Ver Guitar Heros</h2>
+          <table class="crud-table">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Banda</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </article>
+      <template id="crud-template">
+        <tr>
+          <td class="name"></td>
+          <td class="band"></td>
+          <td class="buttons">
+            <button class="edit">Editar</button>
+            <button class="delete">Eliminar</button>
+          </td>
+        </tr>
+      </template>
+      </section>
+    </section>
+  </section>
+  <script src="app.js"></script>
+</body>
+
+</html>
